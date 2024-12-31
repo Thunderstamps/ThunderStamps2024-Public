@@ -1,0 +1,25 @@
+{
+  "robotWidth": 0.85,
+  "robotLength": 1.0,
+  "holonomicMode": true,
+  "pathFolders": [
+    "Blue Amp A",
+    "Blue Amp B",
+    "Blue Centre A",
+    "Blue Source A",
+    "Blue Source B",
+    "Blue Centre B",
+    "Red Amp A",
+    "Red Amp B",
+    "Red Centre A",
+    "Red Centre B",
+    "Red Source A",
+    "Red Source B"
+  ],
+  "autoFolders": [],
+  "defaultMaxVel": 3.0,
+  "defaultMaxAccel": 3.0,
+  "defaultMaxAngVel": 300.0,
+  "defaultMaxAngAccel": 720.0,
+  "maxModuleSpeed": 4.5
+}

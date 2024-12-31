@@ -1,0 +1,52 @@
+{
+  "version": 1.0,
+  "waypoints": [
+    {
+      "anchor": {
+        "x": 8.279324804263645,
+        "y": 7.432701005752889
+      },
+      "prevControl": null,
+      "nextControl": {
+        "x": 9.241210165790003,
+        "y": 7.263094664167276
+      },
+      "isLocked": false,
+      "linkedName": "RedCentreAW6"
+    },
+    {
+      "anchor": {
+        "x": 10.709619489414418,
+        "y": 6.970219554474197
+      },
+      "prevControl": {
+        "x": 9.712718447097767,
+        "y": 7.146000105331014
+      },
+      "nextControl": null,
+      "isLocked": false,
+      "linkedName": null
+    }
+  ],
+  "rotationTargets": [],
+  "constraintZones": [],
+  "eventMarkers": [],
+  "globalConstraints": {
+    "maxVelocity": 3.8,
+    "maxAcceleration": 3.8,
+    "maxAngularVelocity": 300.0,
+    "maxAngularAcceleration": 720.0
+  },
+  "goalEndState": {
+    "velocity": 0,
+    "rotation": 160.0,
+    "rotateFast": false
+  },
+  "reversed": false,
+  "folder": "Red Centre A",
+  "previewStartingState": {
+    "rotation": 180.0,
+    "velocity": 0
+  },
+  "useDefaultConstraints": false
+}

@@ -1,0 +1,86 @@
+{
+  "version": 1.0,
+  "waypoints": [
+    {
+      "anchor": {
+        "x": 13.674941735848385,
+        "y": 6.988356081975322
+      },
+      "prevControl": null,
+      "nextControl": {
+        "x": 12.88600278954944,
+        "y": 5.646253046892059
+      },
+      "isLocked": false,
+      "linkedName": "RedCentreAW5"
+    },
+    {
+      "anchor": {
+        "x": 11.643650655722364,
+        "y": 4.322286539309921
+      },
+      "prevControl": {
+        "x": 12.563090165580604,
+        "y": 4.647340911482027
+      },
+      "nextControl": {
+        "x": 10.74589254441667,
+        "y": 4.00489730804023
+      },
+      "isLocked": false,
+      "linkedName": null
+    },
+    {
+      "anchor": {
+        "x": 8.297461331764769,
+        "y": 4.1046482092964185
+      },
+      "prevControl": {
+        "x": 9.297461331764769,
+        "y": 4.1046482092964185
+      },
+      "nextControl": null,
+      "isLocked": false,
+      "linkedName": "RedCentreBW6"
+    }
+  ],
+  "rotationTargets": [],
+  "constraintZones": [],
+  "eventMarkers": [
+    {
+      "name": "New Event Marker",
+      "waypointRelativePos": 1.5,
+      "command": {
+        "type": "parallel",
+        "data": {
+          "commands": [
+            {
+              "type": "named",
+              "data": {
+                "name": "trackNoteN6"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "globalConstraints": {
+    "maxVelocity": 3.8,
+    "maxAcceleration": 3.8,
+    "maxAngularVelocity": 300.0,
+    "maxAngularAcceleration": 720.0
+  },
+  "goalEndState": {
+    "velocity": 0,
+    "rotation": 180.0,
+    "rotateFast": true
+  },
+  "reversed": false,
+  "folder": "Red Centre B",
+  "previewStartingState": {
+    "rotation": 150.0,
+    "velocity": 0
+  },
+  "useDefaultConstraints": false
+}

@@ -1,0 +1,101 @@
+{
+  "NetworkTables": {
+    "Persistent Values": {
+      "open": false
+    },
+    "Retained Values": {
+      "open": false
+    },
+    "transitory": {
+      "photonData": {
+        "Pose2d##v_/photonData/Arducam1Position": {
+          "Rotation2d##v_rotation": {
+            "open": true
+          },
+          "Translation2d##v_translation": {
+            "open": true
+          },
+          "open": true
+        },
+        "open": true
+      }
+    },
+    "types": {
+      "/FMSInfo": "FMSInfo",
+      "/SmartDashboard/Auto Chooser": "String Chooser",
+      "/SmartDashboard/Disable Assist Mode": "Command",
+      "/SmartDashboard/Disable Gyro": "Command",
+      "/SmartDashboard/Enable Assist Mode": "Command",
+      "/SmartDashboard/Enable Gyro": "Command",
+      "/SmartDashboard/Shoot Lob Position": "Command",
+      "/SmartDashboard/Shoot Manual": "Command",
+      "/SmartDashboard/Shoot Safe Position": "Command",
+      "/SmartDashboard/Shoot Vision 2D": "Command",
+      "/SmartDashboard/Shoot Vision 3D": "Command"
+    }
+  },
+  "NetworkTables Info": {
+    "visible": true
+  },
+  "NetworkTables Settings": {
+    "mode": "Client (NT3)"
+  },
+  "Plots": {
+    "Plot <0>": {
+      "plots": [
+        {
+          "axis": [
+            {
+              "autoFit": true
+            }
+          ],
+          "backgroundColor": [
+            0.0,
+            0.0,
+            0.0,
+            0.8500000238418579
+          ],
+          "height": 595,
+          "series": [
+            {
+              "color": [
+                0.2980392277240753,
+                0.44705885648727417,
+                0.6901960968971252,
+                1.0
+              ],
+              "id": "NT:/photonData/amb1"
+            },
+            {
+              "color": [
+                0.8666667342185974,
+                0.5176470875740051,
+                0.32156863808631897,
+                1.0
+              ],
+              "id": "NT:/photonData/amb2"
+            },
+            {
+              "color": [
+                0.3333333432674408,
+                0.658823549747467,
+                0.4078431725502014,
+                1.0
+              ],
+              "id": "NT:/photonData/Arducam1Position/translation/x"
+            },
+            {
+              "color": [
+                0.7686275243759155,
+                0.30588236451148987,
+                0.32156863808631897,
+                1.0
+              ],
+              "id": "NT:/photonData/Arducam1Position/rotation/value"
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

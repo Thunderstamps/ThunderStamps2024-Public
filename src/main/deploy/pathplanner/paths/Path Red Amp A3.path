@@ -1,0 +1,52 @@
+{
+  "version": 1.0,
+  "waypoints": [
+    {
+      "anchor": {
+        "x": 8.288393068014207,
+        "y": 7.432701005752889
+      },
+      "prevControl": null,
+      "nextControl": {
+        "x": 9.236512734254305,
+        "y": 7.114787340603427
+      },
+      "isLocked": false,
+      "linkedName": "RedAmpAW2"
+    },
+    {
+      "anchor": {
+        "x": 10.85,
+        "y": 6.661898586955068
+      },
+      "prevControl": {
+        "x": 9.901316701949487,
+        "y": 6.978126352971906
+      },
+      "nextControl": null,
+      "isLocked": false,
+      "linkedName": "RedAmpAW3"
+    }
+  ],
+  "rotationTargets": [],
+  "constraintZones": [],
+  "eventMarkers": [],
+  "globalConstraints": {
+    "maxVelocity": 3.0,
+    "maxAcceleration": 3.0,
+    "maxAngularVelocity": 300.0,
+    "maxAngularAcceleration": 720.0
+  },
+  "goalEndState": {
+    "velocity": 0.0,
+    "rotation": 165.0,
+    "rotateFast": false
+  },
+  "reversed": false,
+  "folder": "Red Amp A",
+  "previewStartingState": {
+    "rotation": 180.0,
+    "velocity": 0.0
+  },
+  "useDefaultConstraints": true
+}

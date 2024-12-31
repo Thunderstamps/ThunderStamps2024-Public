@@ -1,0 +1,92 @@
+{
+  "version": 1.0,
+  "waypoints": [
+    {
+      "anchor": {
+        "x": 4.234366090486566,
+        "y": 2.037084074168148
+      },
+      "prevControl": null,
+      "nextControl": {
+        "x": 5.874197952337872,
+        "y": 1.3667267816772841
+      },
+      "isLocked": false,
+      "linkedName": "BlueSourceAW1"
+    },
+    {
+      "anchor": {
+        "x": 6.374476335619337,
+        "y": 1.2753499191208917
+      },
+      "prevControl": {
+        "x": 5.674164601255241,
+        "y": 1.4629978827937904
+      },
+      "nextControl": {
+        "x": 7.074788069983433,
+        "y": 1.087701955447993
+      },
+      "isLocked": false,
+      "linkedName": null
+    },
+    {
+      "anchor": {
+        "x": 8.215333876983542,
+        "y": 0.785663676590511
+      },
+      "prevControl": {
+        "x": 6.913351460724397,
+        "y": 1.134528813586671
+      },
+      "nextControl": null,
+      "isLocked": false,
+      "linkedName": "BlueSourceAW2"
+    }
+  ],
+  "rotationTargets": [
+    {
+      "waypointRelativePos": 1.2,
+      "rotationDegrees": -15.0,
+      "rotateFast": true
+    }
+  ],
+  "constraintZones": [],
+  "eventMarkers": [
+    {
+      "name": "New Event Marker",
+      "waypointRelativePos": 1.0,
+      "command": {
+        "type": "parallel",
+        "data": {
+          "commands": [
+            {
+              "type": "named",
+              "data": {
+                "name": "trackNoteN8"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "globalConstraints": {
+    "maxVelocity": 3.0,
+    "maxAcceleration": 3.0,
+    "maxAngularVelocity": 300.0,
+    "maxAngularAcceleration": 720.0
+  },
+  "goalEndState": {
+    "velocity": 0.0,
+    "rotation": -15.0,
+    "rotateFast": false
+  },
+  "reversed": false,
+  "folder": "Blue Source A",
+  "previewStartingState": {
+    "rotation": -47.0,
+    "velocity": 0.0
+  },
+  "useDefaultConstraints": true
+}

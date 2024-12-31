@@ -1,0 +1,70 @@
+{
+  "version": 1.0,
+  "waypoints": [
+    {
+      "anchor": {
+        "x": 4.36998617577934,
+        "y": 7.444370296394503
+      },
+      "prevControl": null,
+      "nextControl": {
+        "x": 4.853419050098245,
+        "y": 7.444370296394503
+      },
+      "isLocked": false,
+      "linkedName": "BlueAmpAW1"
+    },
+    {
+      "anchor": {
+        "x": 8.251606931985792,
+        "y": 7.432701005752889
+      },
+      "prevControl": {
+        "x": 7.656546386764806,
+        "y": 7.432701005752889
+      },
+      "nextControl": null,
+      "isLocked": false,
+      "linkedName": "BlueAmpAW2"
+    }
+  ],
+  "rotationTargets": [],
+  "constraintZones": [],
+  "eventMarkers": [
+    {
+      "name": "New Event Marker",
+      "waypointRelativePos": 0.65,
+      "command": {
+        "type": "parallel",
+        "data": {
+          "commands": [
+            {
+              "type": "named",
+              "data": {
+                "name": "trackNoteN4"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "globalConstraints": {
+    "maxVelocity": 3.0,
+    "maxAcceleration": 3.0,
+    "maxAngularVelocity": 300.0,
+    "maxAngularAcceleration": 720.0
+  },
+  "goalEndState": {
+    "velocity": 0.0,
+    "rotation": 0.0,
+    "rotateFast": true
+  },
+  "reversed": false,
+  "folder": "Blue Amp A",
+  "previewStartingState": {
+    "rotation": 25.0,
+    "velocity": 0.0
+  },
+  "useDefaultConstraints": true
+}

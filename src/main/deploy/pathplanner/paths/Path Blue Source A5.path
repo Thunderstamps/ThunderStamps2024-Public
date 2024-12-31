@@ -1,0 +1,68 @@
+{
+  "version": 1.0,
+  "waypoints": [
+    {
+      "anchor": {
+        "x": 8.215333876983542,
+        "y": 2.42701941544234
+      },
+      "prevControl": null,
+      "nextControl": {
+        "x": 7.107375527004328,
+        "y": 1.9103699519302566
+      },
+      "isLocked": false,
+      "linkedName": "BlueSourceAW3"
+    },
+    {
+      "anchor": {
+        "x": 6.179856018480755,
+        "y": 1.5025334543181557
+      },
+      "prevControl": {
+        "x": 6.951699654093974,
+        "y": 1.638630312164879
+      },
+      "nextControl": {
+        "x": 5.340379063837504,
+        "y": 1.3545110175315742
+      },
+      "isLocked": false,
+      "linkedName": null
+    },
+    {
+      "anchor": {
+        "x": 4.234366090486566,
+        "y": 2.037084074168148
+      },
+      "prevControl": {
+        "x": 5.098551314530353,
+        "y": 1.323183506997395
+      },
+      "nextControl": null,
+      "isLocked": false,
+      "linkedName": "BlueSourceAW1"
+    }
+  ],
+  "rotationTargets": [],
+  "constraintZones": [],
+  "eventMarkers": [],
+  "globalConstraints": {
+    "maxVelocity": 3.0,
+    "maxAcceleration": 3.0,
+    "maxAngularVelocity": 300.0,
+    "maxAngularAcceleration": 720.0
+  },
+  "goalEndState": {
+    "velocity": 0.0,
+    "rotation": -37.0,
+    "rotateFast": false
+  },
+  "reversed": false,
+  "folder": "Blue Source A",
+  "previewStartingState": {
+    "rotation": 25.0,
+    "velocity": 0.0
+  },
+  "useDefaultConstraints": true
+}

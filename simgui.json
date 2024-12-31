@@ -1,0 +1,38 @@
+{
+  "HALProvider": {
+    "Other Devices": {
+      "SPARK MAX [61]": {
+        "header": {
+          "open": true
+        }
+      }
+    }
+  },
+  "NTProvider": {
+    "types": {
+      "/FMSInfo": "FMSInfo",
+      "/SmartDashboard/Auto Chooser": "String Chooser",
+      "/SmartDashboard/Auto Routine": "String Chooser",
+      "/SmartDashboard/Disable Assist Mode": "Command",
+      "/SmartDashboard/Disable Gyro": "Command",
+      "/SmartDashboard/Enable Assist Mode": "Command",
+      "/SmartDashboard/Enable Gyro": "Command",
+      "/SmartDashboard/Shoot Lob Position": "Command",
+      "/SmartDashboard/Shoot Manual": "Command",
+      "/SmartDashboard/Shoot Pass Position": "Command",
+      "/SmartDashboard/Shoot Safe Position": "Command",
+      "/SmartDashboard/Shoot Vision 2D": "Command",
+      "/SmartDashboard/Shoot Vision 3D": "Command"
+    }
+  },
+  "NetworkTables": {
+    "transitory": {
+      "limelight": {
+        "open": true
+      }
+    }
+  },
+  "NetworkTables Info": {
+    "visible": true
+  }
+}

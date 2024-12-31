@@ -1,0 +1,52 @@
+{
+  "version": 1.0,
+  "waypoints": [
+    {
+      "anchor": {
+        "x": 2.39350854912236,
+        "y": 4.267876956806545
+      },
+      "prevControl": null,
+      "nextControl": {
+        "x": 1.495750437816665,
+        "y": 5.1474985406111164
+      },
+      "isLocked": false,
+      "linkedName": "BlueCentreAW4"
+    },
+    {
+      "anchor": {
+        "x": 2.865058264151615,
+        "y": 6.988356081975322
+      },
+      "prevControl": {
+        "x": 1.62174672103753,
+        "y": 6.270529827871836
+      },
+      "nextControl": null,
+      "isLocked": false,
+      "linkedName": "BlueCentreAW5"
+    }
+  ],
+  "rotationTargets": [],
+  "constraintZones": [],
+  "eventMarkers": [],
+  "globalConstraints": {
+    "maxVelocity": 3.0,
+    "maxAcceleration": 3.0,
+    "maxAngularVelocity": 300.0,
+    "maxAngularAcceleration": 720.0
+  },
+  "goalEndState": {
+    "velocity": 0.0,
+    "rotation": 30.0,
+    "rotateFast": true
+  },
+  "reversed": false,
+  "folder": "Blue Centre A",
+  "previewStartingState": {
+    "rotation": -40.0,
+    "velocity": 0.0
+  },
+  "useDefaultConstraints": true
+}
